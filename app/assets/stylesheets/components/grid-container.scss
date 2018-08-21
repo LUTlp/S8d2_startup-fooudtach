@@ -1,0 +1,9 @@
+.grid-container {
+  display: grid;
+  height: 1000px;
+
+  grid-template-rows: 1fr;
+
+  grid-template-areas: "general_cube";
+
+}

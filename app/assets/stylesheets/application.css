@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ @import url("components/grid-container.scss");
+ @import url("components/tabs.scss");
+ @import url("components/wrapper.scss");
+ @import url("components/slides-container.scss");
