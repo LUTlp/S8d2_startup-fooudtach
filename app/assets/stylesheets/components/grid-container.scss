@@ -1,9 +1,9 @@
 .grid-container {
-  display: grid;
-  height: 1000px;
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.8fr;
+    grid-gap: 1px;
 
-  grid-template-rows: 1fr;
-
-  grid-template-areas: "general_cube";
-
-}
+    grid-template-areas: "titre" "main";
+  }

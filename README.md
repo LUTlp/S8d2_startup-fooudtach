@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Mon profile
 
-Things you may want to cover:
+Hey you, are you fine ? Ok, take popcors and let's introduce myself !
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+.you can see the landing page here : https://startup-foodtechlutlp.herokuapp.com/
 
-* Configuration
+### Prerequisites
 
-* Database creation
+This app runs for postgrrrrrrrrrrrrr for sql. Nevertheless, there is no database, héhé !
 
-* Database initialization
+You just need to
 
-* How to run the test suite
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tests
 
-* Deployment instructions
+In France, we have a sentence for this present situation... "cherche pas, tu peux pas teste !"
 
-* ...
+
+## Contenu
+
+This is the first restaurant that your tong is waiting for.
+Here, you will fine naturally health foof with incredible element : meat, vegetables and bread ! That sound really amazing, don't you think !
+
+
+##Contributing and Authors
+
+Me, myself and I, LUTlp, aka R.A.P.

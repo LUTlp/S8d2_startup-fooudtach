@@ -33,12 +33,13 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-
+$('.mySlides').first().show()
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides fade");
   var dots = document.getElementsByClassName("dot");
+
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -51,11 +52,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:1,
-    loop:true,
-        autoplay:true,
-    autoplayTimeout:100,
-    autoplayHoverPause:true
+
+$('.autoplay').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
